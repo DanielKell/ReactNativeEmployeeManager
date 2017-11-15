@@ -8,6 +8,7 @@ const INITIAL_STATE = {
 //Define empty string to inform others what this reducer is responsible for
 
 export default (state = INITIAL_STATE , action) => {
+    console.log(action);
     switch (action.type) {
 
         case EMAIL_CHANGED: 
